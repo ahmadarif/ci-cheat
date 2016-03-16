@@ -6,8 +6,10 @@
     $base_url .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
     $config['base_url'] = $base_url;
 
-
 # Remove index.php
+
+#### Setting config.php like this ####
+    $config['index_page'] = '';
 
 #### Create file .htaccess on your root project ####
     <IfModule mod_rewrite.c>
