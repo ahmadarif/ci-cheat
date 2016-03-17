@@ -18,3 +18,13 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php/$1 [L]
     </IfModule>
+
+# Change your array to object
+
+#### array
+    $data = array();
+    $data['name'] = 'Ahmad Arif';
+    
+### change to
+    $data = new StdObject();
+    $data->name = 'Ahmad Arif';
