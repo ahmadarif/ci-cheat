@@ -28,6 +28,23 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php?/$1 [L]
     </IfModule>
+    
+    
+# Avoid direct access to the controller with the full controller name
+    $route['404_override'] = 'errors/show_404';
+
+    /**
+    * Your all routes path here....
+    * ------------------------------
+    * ------------------------------
+    * ------------------------------
+    */
+    
+    /**
+     * Avoid direct access to the controller with the full controller name.
+     */
+    $route['(:any)'] = 'errors/show_404';
+
 
 # Change your array to object
 
