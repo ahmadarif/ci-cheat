@@ -43,7 +43,7 @@
     /**
      * Avoid direct access to the controller with the full controller name.
      */
-    $route['(:any)'] = 'errors/show_404';
+    $route['.*'] = 'errors/show_404';
 
 
 # Change your array to object
