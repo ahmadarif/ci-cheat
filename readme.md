@@ -63,7 +63,7 @@
     
 #### Buat batch file dengan nama `server.bat` (nama sih bebas, yang penting eksternsinya)
 #### Tulis kode berikut di dalam file `server.bat`
-```
+```Batchfile
 @echo off
 start "" http://localhost:8000
 php -S localhost:8000
