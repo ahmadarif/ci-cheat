@@ -61,11 +61,10 @@
     Fitur ini bisa digunakan jika kamu menggunakan automatic base url (di atas)
     Gimana cara pakainya? Biar lebih gampang ikutin cara berikut:
     
-    ### Buat batch file dengan nama **server.bat** (nama sih bebas, yang penting eksternsinya)
-    ### Tulis kode berikut di dalam file **server.bat**
-        
-        ```
-        @echo off
-        start "" http://localhost:8000
-        php -S localhost:8000
-        ```
+#### Buat batch file dengan nama **server.bat** (nama sih bebas, yang penting eksternsinya)
+#### Tulis kode berikut di dalam file **server.bat**
+    ```
+    @echo off
+    start "" http://localhost:8000
+    php -S localhost:8000
+    ```
