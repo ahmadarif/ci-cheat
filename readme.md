@@ -58,7 +58,8 @@
     
 # PHP Built-in web server
 Apa itu `PHP Built-in web server` ? [Baca di sini](http://php.net/manual/en/features.commandline.webserver.php)  
-Fitur ini bisa digunakan jika kamu mengikuti [tutorial ini](#automatic-base-url)
+Fitur ini bisa digunakan jika kamu mengikuti [tutorial ini](#automatic-base-url)  
+Keuntungannya adalah kamu tidak harus menempatkan proyek kamu di folder htdocs ([xampp](https://www.apachefriends.org) user), [www](http://www.wampserver.com/) (wamp user), dan folder lainnya sesuai dengan software web server yang kamu gunakan.
 
 Gimana cara pakainya? Biar lebih gampang ikutin cara berikut:
 - Buat batch file dengan nama `server.bat` (nama sih bebas, yang penting eksternsinya)
